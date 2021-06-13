@@ -1,0 +1,269 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-13T08:15:52.663Z",
+        "line": 2,
+        "name": "KPI Creation",
+        "description": "",
+        "id": "core-eenpm-login-and-kpi-feature;kpi-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the login page",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters correct \"613687292\" and user enters corret \"Apeksha@1994\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "613687292",
+                  "offset": 21
+                },
+                {
+                  "val": "Apeksha@1994",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinitions.Sdefinition.user_enters_correct_and_user_enters_corret(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on the Manage KPI button",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_clicks_on_the_Manage_KPI_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to enter KPI name and description",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_should_be_able_to_enter_KPI_name_and_description()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the Configuration tab",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_clicks_on_the_Configuration_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to create a Formula",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_should_be_able_to_create_a_Formula()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the formula is created succesfully user should be able to click on the save button",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.the_formula_is_created_succesfully_user_should_be_able_to_click_on_the_save_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be able to edit the KPI",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_should_be_able_to_edit_the_KPI()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Core EENPM login and KPI feature",
+    "description": "",
+    "id": "core-eenpm-login-and-kpi-feature",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/AKPI.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-13T08:15:52.779Z",
+        "line": 2,
+        "name": "Dashboard Creation",
+        "description": "",
+        "id": "dashboard-creation-and-manage;dashboard-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on the login page",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters correct \"613687292\" and user enters corret \"Apeksha@1994\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "613687292",
+                  "offset": 21
+                },
+                {
+                  "val": "Apeksha@1994",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinitions.Sdefinition.user_enters_correct_and_user_enters_corret(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on admin settings and Create Dashboard",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_clicks_on_admin_settings_and_Create_Dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should enter Dashboard name",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_should_enter_Dashboard_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the Report Name",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_enters_the_Report_Name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be able to add the requited reports to the Dashboard",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_should_be_able_to_add_the_requited_reports_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on Add another reports section",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.the_user_clicks_on_Add_another_reports_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be able to give Report Name",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_should_be_able_to_give_Report_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "to add few more reports into another section and Create Dashboard",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.to_add_few_more_reports_into_another_section_and_Create_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User selects required access",
+            "match": {
+              "location": "StepDefinitions.Sdefinition.user_selects_required_access()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dashboard Creation and Manage",
+    "description": "",
+    "id": "dashboard-creation-and-manage",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/Dashboard.feature",
+    "tags": []
+  }
+]

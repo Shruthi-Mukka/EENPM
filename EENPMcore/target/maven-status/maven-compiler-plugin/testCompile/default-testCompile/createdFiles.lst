@@ -1,0 +1,3 @@
+testRunners\Runner.class
+StepDefinitions\NPMLogin.class
+StepDefinitions\Sdefinition.class
